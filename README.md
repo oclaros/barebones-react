@@ -221,7 +221,7 @@ export default App;
 ```
 A brief explanation of this  App.js... 
 * import React, { Component } from 'react' --- get the default module object, React in this case and the Component module, from the module specifier, 'react' in this case 
-* class App extends Component – This class is called 'App' and its base class is React.Component. Within the App class, we have a function called render. The render function returns a JSX element with 'Hello from React!!!' as text. 
+* class App extends Component – This class is called 'App' and its base class is React.Component. Within the App class, we have a function called render. The render function returns a JSX element with 'Built with React!!!' as text. 
  
 ## Run the app 
 
