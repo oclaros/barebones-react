@@ -231,7 +231,7 @@ If you configured this correctly run the following at the command line:
 
 ## Built With
 
-* [Webpack](ttps://webpack.js.org/concepts/)
+* [Webpack](https://webpack.js.org/concepts/)
 * [Babel](http://babeljs.io/)
 * [React](https://reactjs.org/)
 
