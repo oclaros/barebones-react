@@ -8,8 +8,8 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 module.exports = { 
   entry: './src/index.js', 
   output: { 
-    path: path.resolve('dist'), 
-    filename: 'index_bundle.js' 
+    path: path.resolve('public'), 
+    filename: 'bundle.js' 
   }, 
   module: { 
     rules: [ 
@@ -27,7 +27,7 @@ module.exports = {
         test: /\.jsx?$/, 
         exclude: /node_modules/, 
         use: "babel-loader" 
-      } 
+      }
     ] 
   },
   devServer:{
